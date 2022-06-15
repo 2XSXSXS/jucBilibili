@@ -7,10 +7,8 @@ import java.util.concurrent.TimeUnit;
  * @auther zzyy
  * @create 2022-01-17 18:59
  */
-public class CompletableFutureCombineDemo
-{
-    public static void main(String[] args)
-    {
+public class CompletableFutureCombineDemo {
+    public static void main(String[] args) {
         CompletableFuture<Integer> completableFuture1 = CompletableFuture.supplyAsync(() -> {
             System.out.println(Thread.currentThread().getName() + "\t ---启动");
             //暂停几秒钟线程
