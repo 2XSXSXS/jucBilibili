@@ -1,7 +1,6 @@
 package com.bilibili.juc.tl;
 
 import lombok.Getter;
-import sun.font.FontRunIterator;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
