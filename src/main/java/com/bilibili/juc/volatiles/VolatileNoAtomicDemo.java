@@ -9,7 +9,6 @@ class MyNumber {
         number++;
     }
 }
-
 /**
  * @auther zzyy
  * @create 2022-02-23 16:54
@@ -17,7 +16,6 @@ class MyNumber {
 public class VolatileNoAtomicDemo {
     public static void main(String[] args) {
         MyNumber myNumber = new MyNumber();
-
         for (int i = 1; i <= 10; i++) {
             new Thread(() -> {
                 for (int j = 1; j <= 1000; j++) {

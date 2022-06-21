@@ -1,5 +1,7 @@
 package com.bilibili.juc.LockSupport;
 
+import org.junit.Test;
+
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
@@ -74,6 +76,7 @@ public class LockSupportDemo {
         }, "t2").start();
     }
 
+    @Test
     private static void syncWaitNotify() {
         Object objectLock = new Object();
 

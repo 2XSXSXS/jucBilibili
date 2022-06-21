@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="juc_bilibili" />
+        <module name="jucBilibili" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jucBilibili" options="-parameters" />
       <module name="juc_bilibili" options="-parameters" />
     </option>
   </component>

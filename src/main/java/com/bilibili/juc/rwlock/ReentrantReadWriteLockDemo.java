@@ -45,6 +45,7 @@ class MyResource //资源类，模拟一个简单的缓存
             try {
                 TimeUnit.MILLISECONDS.sleep(2000);
             } catch (InterruptedException e) {
+
                 e.printStackTrace();
             }
             System.out.println(Thread.currentThread().getName() + "\t" + "完成读取" + "\t" + result);
